@@ -1,0 +1,355 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%; max-height: 100%;
+}
+
+#container-pertama {
+    background: url(image/background.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    width: 100%;
+    height: 630px;
+    -moz-height: 630px;
+    
+    /* padding-top: 20px; */
+}
+
+nav {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    padding: 0px 100px;
+    height: 100px;
+}
+
+.logo {
+    line-height: 100px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.navigation {
+    float: right;
+    line-height: 100px; 
+}
+
+.navigation li {
+    display: inline-block !important;
+    padding-left: 20px;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(104, 104, 105) !important;
+    text-decoration: none !important;
+}
+
+.content {
+    width: 960px;
+    /* height: 630px; */
+    margin: 0 auto;
+}
+
+.box-welcome {
+    width: 500px;
+    text-align: center;
+    background-color: rgba(3, 3, 3, 0.5);
+    /* margin: 80px 0; */
+    padding: 20px 0;
+    color: white;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.box-welcome a {
+    display: block;
+    border: 1px solid blue;
+    border-radius: 2rem;
+    padding: 20px;
+    margin: 30px auto;
+    width: 300px;
+    color: white;
+    text-decoration: none;
+}
+
+.box-welcome a:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+/* ====== Bagian About ====== */
+
+#bagian-kedua {
+    margin: 0px;
+    padding-bottom: 20px;
+    background-color: blue;
+}
+
+#about {
+    padding: 300px;
+    color: white;
+}
+
+hr {
+    margin: 30px auto;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    color: rgb(169, 170, 172);
+    text-align: center;
+}
+
+/* ====== Bagian Services ======  */
+
+#bagian-ketiga {
+    background-color: white;
+    margin: 0px;
+    padding: 100px 0;
+}
+
+#bagian-ketiga h1, h2 {
+    color: black;
+}
+
+.pembatas {
+    width: 100px;
+    height: 5px;
+    margin: 20px auto;
+    background-color: blue;
+}
+
+span {
+    font-size: 100px;
+    text-align: center;
+    margin: 20px;
+    color: blue;
+}
+
+.col-lg-3 {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 0px;
+}
+
+/* ====== Bagian Karya ====== */
+#bagian-keempat {
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#bagian-keempat h2 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.project-satu {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    margin: 25px;
+}
+
+.project-satu p {
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    width: 350px; height: 265px;
+    line-height: 265px;
+    text-align: center;
+    background-color: rgb(0, 0, 255, 0.5);
+    display: none;
+}
+
+.project-satu:hover p {
+    display: block;
+}
+
+#bagian-keempat img {
+    background-size: 350px 350px;
+}
+
+span.karya {
+    font-size: 30px;
+    color: white;
+}
+
+/* ====== Bagian Footer ====== */
+#bagian-kelima {
+    background-color: blue;
+    padding: 50px;
+    margin: 0px;
+}
+
+#bagian-kelima h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.input-text {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    outline: none;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+}
+
+.input-textarea {
+    width: 500px;
+    height: 250px;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    outline: none;
+}
+
+#errorP {
+    color: red;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.btn {
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    margin: 10px;
+}
+
+input[value="Kirim"] {
+    font-size: 20px;
+    color: blue;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.fa-facebook, .fa-twitter-square, 
+.fa-instagram, .fa-telegram {
+    color: white;
+    font-size: 50px;
+}
+
+/*.fa-facebook:hover, .fa-twitter-square:hover, 
+.fa-instagram:hover, .fa-telegram:hover {
+    color: white;
+    font-size: 70px;
+    margin: 0 auto;
+    box-shadow: all;
+}*/
+
+/* ============================= */
+/* =========== Responsive =========== */
+/* ============================= */
+
+@media only screen and (max-width: 1024px) {
+    #container-pertama h1 {
+        font-size: 30px;
+    }
+    .box-welcome a {
+        display: block;
+        border: 1px solid blue;
+        border-radius: 2rem;
+        padding: 10px;
+        margin: 30px auto;
+        width: 200px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .project-satu:hover p {
+        display: none !important;
+    }    
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 0px 30px;
+    }
+    .logo {
+        line-height: 100px;
+        padding-top: 10px;
+        text-transform: uppercase;
+        float: left;
+    }
+    #about {
+        padding: 0px;
+        margin: 0px;
+    }
+    #about h1 {
+        text-align: center;
+        padding-top: 100px;
+    }
+    #about p {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    #about hr {
+        display: none;
+    }
+    .input-textarea {
+        height: 100px !important;
+    }
+    iframe {
+        padding-top: 30px;
+        height: 300px;
+        margin: 0px auto;
+        margin-left: 10px;
+    }
+    .footer {
+        padding: 5px !important;
+    }
+    .fa-facebook, .fa-twitter-square, 
+    .fa-instagram, .fa-telegram {
+    color: white;
+    font-size: 30px;
+    }
+}
+
+

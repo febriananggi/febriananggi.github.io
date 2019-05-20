@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Portofolio, Contoh portofolio, Website, Contoh website, Contoh website sederhana, Website pertama saya" >
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="bootstrap-3.4.1-dist/js/bootstrap.js"> -->
+</head>
+<body>
+    <div id="container-pertama">
+        <nav id="navAnimate">
+            <div class="logo">
+                <a href=""><h2>LOGO</h2></a>
+            </div>
+            <ul class="navigation">
+                <li><a href="#container-pertama" onclick="return scrollSmoth('container-pertama')">Home</a></li>
+                <li><a href="#bagian-kedua" onclick="return scrollSmoth('bagian-kedua')">About</a></li>
+                <li><a href="#bagian-ketiga" onclick="return scrollSmoth('bagian-ketiga')">Services</a></li>
+                <li><a href="#bagian-kelima" onclick="return scrollSmoth('bagian-kelima')">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="box-welcome">
+                <h1>Selamat Datang <br> di Website Kami</h1>
+                <h2><a href="#bagian-keempat" onclick="return scrollSmoth('bagian-keempat')">Lihat Karya</a></h2> 
+            </div>
+        </div>
+    </div>
+
+    <div id="bagian-kedua">
+        <div class="content">
+            <div id="about">
+                <h1>About</h1>
+                <hr>
+                <p>Ini deskripsi tentang perusahaan</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="bagian-ketiga">
+        <!-- <div class="content"> -->
+            <h1>Services</h1>
+            <div class="pembatas"></div>
+            <div class="container-fluid">
+                <div class="row services">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                        <span class="glyphicon glyphicon-globe"></span>
+                        <h2>Globe</h2>
+                        <p>Ini deskripsi</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                        <span class="glyphicon glyphicon-lock"></span>
+                        <h2>Lock Your Job</h2>
+                        <p>Ini deskripsi</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                        <span class="glyphicon glyphicon-wrench"></span>
+                        <h2>Lock Your Job</h2>
+                        <p>Ini deskripsi</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                        <span class="glyphicon glyphicon-heart"></span>
+                        <h2>Lock Your Job</h2>
+                        <p>Ini deskripsi</p>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <div id="bagian-keempat">
+        <h2>Karya Saya</h2>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="project-satu">
+                        <img src="image/project-satu.jpeg" alt="">
+                        <p><span class="karya">Karya Saya</span></p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="project-satu">
+                        <img src="image/project-dua.jpg" alt="">
+                        <p><span class="karya">Karya Saya</span></p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="project-satu">
+                        <img src="image/project-lima.jpg" alt="">
+                        <p><span class="karya">Karya Saya</span></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <div id="bagian-kelima">
+            <h2>Contact</h2>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="form-contact">
+                            <form action="" method="GET" id="form">
+                                <input class="input-text" type="text" name="txtNama" id="nama" placeholder="Nama">
+                                <p id="errorP"></p>
+                                <input class="input-text" type="text" name="txtEmail" id="email" placeholder="Emal">
+                                <p id="errorP"></p>
+                                <textarea class="input-textarea" type="textarea" name="txtPesan" id="pesan" placeholder="Pesan"></textarea>
+                                <p id="errorP"></p>
+                                <input class="btn" type="submit" id="submit" id="reset" value="Kirim">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d32654820.88251222!2d117.88879999999999!3d-2.4456499999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1557137554371!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer">
+                            <span><i class="fab fa-facebook"></i></span> 
+                            <span><i class="fab fa-twitter-square"></i></span>
+                            <span><i class="fab fa-instagram"></i></span> 
+                            <span><i class="fab fa-telegram"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer">
+                            <p>&copy; MyWebsite 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+</body>
+</html>
