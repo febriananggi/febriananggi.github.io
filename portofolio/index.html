@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="bootstrap-3.4.1-dist/js/bootstrap.js"> -->
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menuList');
+            // IE > 5
+            menu.classList.toggle('menu-open');
+        }
+    </script>
 </head>
 <body>
     <div id="container-pertama">
@@ -19,12 +26,16 @@
             <div class="logo">
                 <a href=""><h2>LOGO</h2></a>
             </div>
-            <ul class="navigation">
-                <li><a href="#container-pertama" onclick="return scrollSmoth('container-pertama')">Home</a></li>
-                <li><a href="#bagian-kedua" onclick="return scrollSmoth('bagian-kedua')">About</a></li>
-                <li><a href="#bagian-ketiga" onclick="return scrollSmoth('bagian-ketiga')">Services</a></li>
-                <li><a href="#bagian-kelima" onclick="return scrollSmoth('bagian-kelima')">Contact</a></li>
-            </ul>
+            <div id="menu" onclick="toggleMenu();">
+                <h2 id="menu-text">MENU</h2>
+                <ul class="navigation" id="menuList">
+                    <li><a href="#container-pertama" onclick="return scrollSmoth('container-pertama')">Home</a></li>
+                    <li><a href="#bagian-kedua" onclick="return scrollSmoth('bagian-kedua')">About</a></li>
+                    <li><a href="#bagian-ketiga" onclick="return scrollSmoth('bagian-ketiga')">Services</a></li>
+                    <li><a href="#bagian-kelima" onclick="return scrollSmoth('bagian-kelima')">Contact</a></li>
+                </ul>
+            </div>
+            
         </nav>
         <div class="content">
             <div class="box-welcome">
@@ -51,24 +62,32 @@
             <div class="container-fluid">
                 <div class="row services">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                        <span class="glyphicon glyphicon-globe"></span>
-                        <h2>Globe</h2>
-                        <p>Ini deskripsi</p>
+                        <div class="smartphone">
+                            <span class="glyphicon glyphicon-globe"></span>
+                            <h2>Globe</h2>
+                            <p>Ini deskripsi</p>
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                        <span class="glyphicon glyphicon-lock"></span>
-                        <h2>Lock Your Job</h2>
-                        <p>Ini deskripsi</p>
+                        <div class="smartphone">
+                            <span class="glyphicon glyphicon-lock"></span>
+                            <h2>Lock Your Job</h2>
+                            <p>Ini deskripsi</p>
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                        <span class="glyphicon glyphicon-wrench"></span>
-                        <h2>Lock Your Job</h2>
-                        <p>Ini deskripsi</p>
+                        <div class="smartphone">
+                            <span class="glyphicon glyphicon-wrench"></span>
+                            <h2>Key world</h2>
+                            <p>Ini deskripsi</p>
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                        <span class="glyphicon glyphicon-heart"></span>
-                        <h2>Lock Your Job</h2>
-                        <p>Ini deskripsi</p>
+                        <div class="smartphone">
+                            <span class="glyphicon glyphicon-heart"></span>
+                            <h2>It's heart's</h2>
+                            <p>Ini deskripsi</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,10 +149,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="footer">
-                            <span><i class="fab fa-facebook"></i></span> 
-                            <span><i class="fab fa-twitter-square"></i></span>
-                            <span><i class="fab fa-instagram"></i></span> 
-                            <span><i class="fab fa-telegram"></i></span>
+                            <i class="fab fa-facebook"></i> 
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-instagram"></i> 
+                            <i class="fab fa-telegram"></i>
                         </div>
                     </div>
                 </div>
