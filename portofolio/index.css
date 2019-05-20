@@ -274,7 +274,7 @@ input[value="Kirim"] {
 
 .footer {
     width: 100%;
-    padding: 20px;
+    padding: 60px;
     text-align: center;
 }
 
@@ -282,6 +282,7 @@ input[value="Kirim"] {
 .fa-instagram, .fa-telegram {
     color: white;
     font-size: 50px;
+    margin: 10px;
 }
 
 /*.fa-facebook:hover, .fa-twitter-square:hover, 
@@ -314,6 +315,15 @@ input[value="Kirim"] {
     .project-satu:hover p {
         display: none !important;
     }    
+    .footer {
+        padding: 60px;
+    }
+    .fa-facebook, .fa-twitter-square, 
+    .fa-instagram, .fa-telegram {
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -376,6 +386,7 @@ input[value="Kirim"] {
     }
     iframe {
         padding-top: 30px;
+        padding-bottom: 30px;
         height: 300px;
         margin: 0px auto;
         margin-left: 10px;
@@ -387,7 +398,8 @@ input[value="Kirim"] {
     .fa-instagram, .fa-telegram {
     color: white;
     font-size: 30px;
-    margin: 10px;
+    margin: 5px;
+    padding-bottom: 30px;
     }
 }
 
